@@ -1,0 +1,37 @@
+<html>
+    <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script src="https://aframe.io/releases/0.7.1/aframe.min.js"></script>
+    <script src="https://jeromeetienne.github.io/AR.js/aframe/build/aframe-ar.js"></script>
+
+
+    <body style='margin : 0px; overflow: hidden; font-family: Monospace;'>
+
+
+        <a-scene stats embedded arjs='sourceType: webcam; detectionMode: mono; maxDetectionRate: 30; canvasWidth: 240; canvasHeight: 180'>
+        <a-marker-camera preset="hiro" material="" arjs-anchor="" camera="" data-aframe-inspector-original-camera="">
+
+            <a-box color="#893838" width="1" height="1" depth="1" position="0 0.779 -0.492" scale="0.25 0.25 0.25" material="" geometry="">
+            </a-box>
+            <a-box color="#0489B1" width="1.1" height="2" depth="1" position="-0.001 0.779 -0.108" scale="0.25 0.25 0.25" material="" geometry="" rotation="-89.66789493797383 0 0">
+            </a-box>
+
+            <a-box color="#2D3E60" width="1.1" height="2" depth="1" position="0 0.776 0.389" scale="0.25 0.25 0.25" material="" geometry="" rotation="-89.55330337894766 0 0">
+            </a-box>
+
+            <a-box color="#0489B1" width="0.5" height="0.5" depth="0.5" position="0.203 0.797 -0.246" scale="0.25 0.25 0.25" material="" geometry=""></a-box>
+
+            <a-box color="#0489B1" width="0.5" height="0.5" depth="0.5" position="-0.19 0.794 -0.263" scale="0.25 0.25 0.25" material="" geometry=""></a-box>
+
+            <a-box color="#893838" width="0.5" height="1" depth="0.5" position="-0.182 0.791 -0.074" scale="0.25 0.25 0.25" material="" geometry="" rotation="-89.553 0 0"></a-box>
+
+            <a-box color="#893838" width="0.5" height="1" depth="0.5" position="0.196 0.79 -0.059" scale="0.25 0.25 0.25" material="" geometry="" rotation="-89.55330337894766 0 0"></a-box>
+
+            <a-box color="#61210B" position="0.047 0.784 -0.547" height="0.1" width="0.3" scale="0.25 0.25 0.25" material="" geometry="" rotation="-89.95437383553924 0 0"></a-box>
+
+            <a-box color="#61210B" position="-0.066 0.78 -0.547" height="0.1" width="0.3" scale="0.25 0.25 0.25" material="" geometry="" rotation="-89.725 0 0"></a-box>
+
+        </a-marker-camera>
+    </a-scene>
